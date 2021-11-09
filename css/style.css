@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+    /* Hace que el área de contenido llene toda la ventana del navegador
+    */
+    html,.fullscreen {
+        display: flex;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    /* Centra el contenido en la ventana del navegador */
+    .container {
+        margin: auto;
+        text-align: center;
+    }
+    .title {
+        font-size: 3rem;
+    }
